@@ -1,0 +1,50 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap-grid.css">
+<style>
+.catPic {
+	width:100%;
+}
+.KittenImg {
+	padding:10px;
+}
+.clickCount {
+
+	padding-left:30%;
+}
+.admin {
+	display:none;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+	<div class="chooseCat col-md-4">
+	<form id="myForm">
+	</form>
+	</div>
+	<div class="catPic col-md-5">
+	</div>
+	<div class="clickCount col-md-3 ">
+		
+		<output type="text" class="countPic"></output>
+	</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<input type="button" id="adminClick" value="Admin"></button>
+<div class="Admin">
+<br>
+Name <input type="text" id="name"> 
+ImgURL <input type="text" id="imgUrl"> 
+Clicks <input type="text" id="clicks"> 
+<input type="button" id="cancel" value="cancel"></button>
+<input type="button" id="submit" value="submit"></button>
+</div>
+</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
